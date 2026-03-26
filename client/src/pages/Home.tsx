@@ -7,7 +7,7 @@
  * 2. Filosofia — Posicionamento do médico
  * 3. Resultados — Before/After premium
  * 4. Procedimentos — Full Face Man
- * 5. O Médico — Autoridade
+ * 5. PROFISSIONAL CAPACITADO — Autoridade
  * 6. Depoimentos — Social proof
  * 7. Experiência — Jornada do paciente
  * 8. FAQ — Perguntas estratégicas
@@ -810,7 +810,7 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════
-          5. O MÉDICO — Autoridade
+          5. PROFISSIONAL CAPACITADO — Autoridade
       ══════════════════════════════════════════════════════════════════ */}
       <section
         id="medico"
