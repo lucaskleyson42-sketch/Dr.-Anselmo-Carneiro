@@ -813,7 +813,7 @@ export default function Home() {
           5. PROFISSIONAL CAPACITADO — Autoridade
       ══════════════════════════════════════════════════════════════════ */}
       <section
-        id="PROFISSIONAL CAPACITADO"
+        id="profissional-capacitado"
         style={{
           padding: "clamp(5rem, 10vw, 9rem) 0",
           background: "var(--off-white)",
@@ -834,7 +834,7 @@ export default function Home() {
             {/* Left: Text */}
             <div>
               <div className="reveal" style={{ marginBottom: "1.5rem" }}>
-                <span className="label-tag">O Médico</span>
+                <span className="label-tag">PROFISSIONAL CAPACITADO</span>
                 <div className="section-line-olive" style={{ marginTop: "0.75rem" }} />
               </div>
 
