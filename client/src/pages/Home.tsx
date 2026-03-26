@@ -813,7 +813,7 @@ export default function Home() {
           5. PROFISSIONAL CAPACITADO — Autoridade
       ══════════════════════════════════════════════════════════════════ */}
       <section
-        id="medico"
+        id="PROFISSIONAL CAPACITADO"
         style={{
           padding: "clamp(5rem, 10vw, 9rem) 0",
           background: "var(--off-white)",
