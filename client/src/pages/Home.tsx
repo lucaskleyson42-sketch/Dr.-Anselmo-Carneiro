@@ -524,7 +524,7 @@ export default function Home() {
             <div>
               <div className="reveal" style={{ marginBottom: "1.5rem" }}>
                 <span className="label-tag" style={{ color: "rgba(248,246,242,0.5)" }}>
-                  Resultados
+                  Casos Clínicos
                 </span>
                 <div
                   style={{
