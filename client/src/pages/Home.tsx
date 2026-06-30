@@ -179,7 +179,7 @@ export default function Home() {
               </a>
               <button
                 className="btn-secondary"
-                onClick={() => scrollTo("#resultados")}
+                onClick={() => scrollTo("#casos-clinicos")}
               >
                 Casos Clínicos
               </button>
@@ -503,7 +503,7 @@ export default function Home() {
           3. RESULTADOS — Before/After
       ══════════════════════════════════════════════════════════════ */}
       <section
-        id="Resultados"
+        id="casos-clinicos"
         style={{
           padding: "clamp(5rem, 10vw, 9rem) 0",
           background: "var(--charcoal)",
