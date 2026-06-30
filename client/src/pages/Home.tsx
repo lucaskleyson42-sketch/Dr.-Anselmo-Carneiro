@@ -503,7 +503,7 @@ export default function Home() {
           3. RESULTADOS — Before/After
       ══════════════════════════════════════════════════════════════ */}
       <section
-        id="Casos Clínicos"
+        id="Resultados"
         style={{
           padding: "clamp(5rem, 10vw, 9rem) 0",
           background: "var(--charcoal)",
