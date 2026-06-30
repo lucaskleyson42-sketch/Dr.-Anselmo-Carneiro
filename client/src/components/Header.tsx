@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 const navLinks = [
   { label: "Filosofia", href: "#filosofia" },
   { label: "Procedimentos", href: "#procedimentos" },
-  { label: "Casos Clínicos", href: "#resultados" },
+  { label: "Casos Clínicos", href: "#casos-clinicos" },
   { label: "O Médico", href: "#medico" },
   { label: "Contato", href: "#contato" },
 ];
