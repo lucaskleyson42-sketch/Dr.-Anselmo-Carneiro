@@ -5,7 +5,7 @@
  * Sections:
  * 1. Hero — Editorial assimétrico com parallax
  * 2. Filosofia — Posicionamento do médico
- * 3. Resultados — Before/After premium
+ * 3. Casos Clínicos — Before/After premium
  * 4. Procedimentos — Full Face Man
  * 5. PROFISSIONAL CAPACITADO — Autoridade
  * 6. Depoimentos — Social proof
@@ -181,7 +181,7 @@ export default function Home() {
                 className="btn-secondary"
                 onClick={() => scrollTo("#resultados")}
               >
-                Como funciona
+                Casos Clínicos
               </button>
             </div>
 
@@ -503,7 +503,7 @@ export default function Home() {
           3. RESULTADOS — Before/After
       ══════════════════════════════════════════════════════════════ */}
       <section
-        id="resultados"
+        id="Casos Clínicos"
         style={{
           padding: "clamp(5rem, 10vw, 9rem) 0",
           background: "var(--charcoal)",
