@@ -158,8 +158,7 @@ export default function Home() {
                 maxWidth: "400px",
               }}
             >
-              Especialista em harmonização facial definitiva. Resultados que
-              respeitam sua identidade — precisos, naturais e duradouros.
+              Atuação em harmonização facial com foco em naturalidade. Abordagem personalizada que respeita suas características.
             </p>
 
             <div
@@ -182,7 +181,7 @@ export default function Home() {
                 className="btn-secondary"
                 onClick={() => scrollTo("#resultados")}
               >
-                Ver Resultados
+                Como funciona
               </button>
             </div>
 
@@ -200,7 +199,7 @@ export default function Home() {
               {[
                 { n: "11", label: "Anos de experiência" },
                 { n: "+5k", label: "Procedimentos realizados" },
-                { n: "100%", label: "Foco em resultados naturais" },
+                { n: "100%", label: "Foco em naturalidade e equilíbrio facial" },
               ].map((s) => (
                 <div key={s.n}>
                   <div
@@ -364,10 +363,10 @@ export default function Home() {
                   marginBottom: "1.5rem",
                 }}
               >
-                Preenchimento não é tudo igual. A técnica, o olhar e a intenção
-                fazem toda a diferença entre um resultado natural e um rosto que
-                perde sua essência. Cada procedimento começa com uma leitura
-                precisa da face — suas proporções, sua estrutura, sua identidade.
+                Preenchimento não é tudo igual. A técnica, o olhar e o planejamento
+                fazem diferença na abordagem estética. Cada procedimento começa
+                com uma análise da face — suas proporções, estrutura e
+                características individuais.
               </p>
 
               <p
@@ -379,10 +378,10 @@ export default function Home() {
                   marginBottom: "2.5rem",
                 }}
               >
-                Com 11 anos dedicados à harmonização definitiva, desenvolvemos
-                uma abordagem que une diagnóstico preciso, métodos validados e
-                senso estético apurado. O objetivo nunca é transformar — é
-                revelar a melhor versão de quem você já é.
+                Com 11 anos de atuação na área, seguimos uma abordagem que une
+                avaliação criteriosa, métodos reconhecidos e senso estético. O
+                objetivo não é transformar — é valorizar o que já existe com
+                equilíbrio.
               </p>
 
               <div
@@ -394,10 +393,10 @@ export default function Home() {
                 }}
               >
                 {[
-                  { title: "Resultados Naturais", desc: "Sem exageros, sem perda de identidade" },
-                  { title: "Técnica Precisa", desc: "Diagnóstico e planejamento rigorosos" },
-                  { title: "Permanência", desc: "Preenchimentos definitivos de alta durabilidade" },
-                  { title: "Inteligência Estética", desc: "Cada face tratada como única" },
+                  { title: "Naturalidade", desc: "Respeito às características individuais" },
+                  { title: "Planejamento", desc: "Avaliação e definição personalizada" },
+                  { title: "Abordagem", desc: "Indicação conforme cada caso" },
+                  { title: "Individualidade", desc: "Cada face tratada de forma única" },
                 ].map((item) => (
                   <div
                     key={item.title}
@@ -634,7 +633,8 @@ export default function Home() {
                 Full Face Man —
                 <br />
                 <em style={{ fontStyle: "italic", color: "var(--charcoal-mid)" }}>
-                  estética masculina de alto nível.
+                  Estética facial masculina com abordagem personalizada.
+
                 </em>
               </h2>
             </div>
@@ -663,20 +663,20 @@ export default function Home() {
                 n: "01",
                 title: "Preenchimento Definitivo",
                 subtitle: "Ácido Hialurônico de Alta Densidade",
-                desc: "Técnica exclusiva com materiais de longa duração. Resultados que dispensam a frustração de refazer todo ano — harmonização que permanece com você.",
+                desc: "Técnicas reconhecidas com materiais aprovados, definidos conforme avaliação individual. Resultados que dispensam a frustração de refazer todo ano — harmonização que permanece com você.",
                 tags: ["Mandíbula", "Mento", "Têmporas", "Maçãs"],
               },
               {
                 n: "02",
                 title: "Implantes Faciais",
                 subtitle: "Estrutura e Definição Permanente",
-                desc: "Implantes de silicone médico para definição permanente do ângulo de mandíbula, mento e maçãs do rosto. Resultado cirúrgico sem cirurgia aberta.",
+                desc: "Implantes de silicone médico para definição permanente do ângulo de mandíbula, mento e maçãs do rosto.",
                 tags: ["Mandíbula", "Mento", "Maçãs"],
               },
               {
                 n: "03",
                 title: "Ângulo de Mandíbula",
-                subtitle: "Referência em Definição Masculina",
+                subtitle: "Atuação em definição e proporção facial masculina.",
                 desc: "Especialidade do Dr. Anselmo Carneiro. Técnica precisa para criar ou acentuar o ângulo mandibular — o detalhe que transforma a leitura do rosto masculino.",
                 tags: ["Preenchimento", "Implante", "Combinado"],
               },
@@ -684,7 +684,7 @@ export default function Home() {
                 n: "04",
                 title: "Otomodelação",
                 subtitle: "Harmonia das Orelhas sem Cirurgia",
-                desc: "Correção da posição e forma das orelhas com fios e técnicas minimamente invasivas. Resultado imediato, sem cortes, sem recuperação longa.",
+                desc: "Correção da posição e forma das orelhas com fios e técnicas minimamente invasivas. Técnica minimamente invasiva com indicação conforme avaliação individual.",
                 tags: ["Sem Cirurgia", "Resultado Imediato"],
               },
               {
@@ -698,7 +698,7 @@ export default function Home() {
                 n: "06",
                 title: "Lipo de Papada",
                 subtitle: "Definição do Contorno Cervical",
-                desc: "Lipoaspiração facial minimamente invasiva para eliminar o excesso de gordura na região submentoniana — definindo o contorno do pescoço e da mandíbula.",
+                desc: "Lipoaspiração facial minimamente invasiva para eliminar o excesso de gordura na região submentoniana — Procedimento para melhora do contorno facial, conforme indicação clínica.",
                 tags: ["Lipoaspiração", "Contorno Facial"],
               },
             ].map((proc, i) => (
@@ -866,9 +866,8 @@ export default function Home() {
                 }}
               >
                 Cirurgião-Dentista formado em 2013, com mais de uma década
-                dedicada exclusivamente à harmonização facial definitiva. Fundador
-                da GAS Man Clinic, referência em preenchimentos definitivos e
-                implantes faciais em São Paulo.
+                de experiência clínica. Fundador
+                da GAS Man Clinic em São Paulo.
               </p>
 
               <p
@@ -880,9 +879,9 @@ export default function Home() {
                   marginBottom: "2.5rem",
                 }}
               >
-                Sua abordagem combina diagnóstico preciso com senso estético
-                refinado — tratando cada face como uma engenharia única. Professor
-                e referência nacional em ângulo de mandíbula, o Dr. Anselmo
+                Sua abordagem envolve avaliação individualizada e planejamento
+                cuidadoso, considerando as características de cada paciente ao longo
+                de todo o processo. O Dr. Anselmo
                 Carneiro é reconhecido por resultados que somam, não substituem.
               </p>
 
@@ -1022,7 +1021,7 @@ export default function Home() {
               },
               {
                 quote:
-                  "Fui com muito medo de parecer artificial. O Dr. Anselmo me explicou cada etapa, planejou com cuidado e o resultado foi além do que eu esperava.",
+                  "Fui com muito medo de parecer artificial. O Dr. Anselmo me explicou cada etapa, planejou com cuidado. Me senti seguro durante todo o atendimento.",
                 name: "Fernando L.",
                 detail: "Harmonização Completa · São Paulo",
               },
@@ -1155,7 +1154,7 @@ export default function Home() {
                 {
                   n: "04",
                   title: "Acompanhamento Contínuo",
-                  desc: "Suporte pós-procedimento, revisões e ajustes quando necessário. Sua satisfação é o resultado que importa.",
+                  desc: "Suporte pós-procedimento, revisões e ajustes quando necessário. Acompanhamento contínuo com orientações e revisões conforme necessidade.",
                 },
               ].map((step, i) => (
                 <div
@@ -1257,8 +1256,8 @@ export default function Home() {
               <div className="reveal">
                 {[
                   {
-                    q: "O resultado vai parecer natural?",
-                    a: "Sim. Nossa abordagem é baseada na preservação da identidade do paciente. Trabalhamos com diagnóstico preciso e técnicas que respeitam as proporções naturais do seu rosto. O objetivo é que as pessoas notem que você está com uma aparência melhor — não que você fez algum procedimento.",
+                    q: "O procedimento mantém aspecto natural?",
+                    a: "A abordagem busca respeitar as características individuais, com planejamento baseado em proporções faciais e avaliação clínica.",
                   },
                   {
                     q: "Qual a diferença entre preenchimento definitivo e temporário?",
@@ -1354,8 +1353,8 @@ export default function Home() {
               margin: "0 auto 3rem",
             }}
           >
-            Agende sua consulta de avaliação. Sem compromisso, sem pressão —
-            apenas uma análise honesta do que é possível para o seu rosto.
+            Agende sua consulta de avaliação para entender as possibilidades de
+            abordagem conforme o seu caso.
           </p>
 
           <div
