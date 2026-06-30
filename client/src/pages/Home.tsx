@@ -545,10 +545,10 @@ export default function Home() {
                   lineHeight: 1.1,
                 }}
               >
-                Transformações que
+                Casos clínicos que
                 <br />
                 <em style={{ fontStyle: "italic", color: "rgba(248,246,242,0.6)" }}>
-                  falam por si.
+                  demonstram abordagens.
                 </em>
               </h2>
             </div>
@@ -563,8 +563,8 @@ export default function Home() {
                 lineHeight: 1.8,
               }}
             >
-              Cada imagem representa uma transformação completa. Resultados que
-              respeitam a identidade — precisos, naturais e duradouros.
+              Cada caso apresenta uma abordagem individualizada, 
+              respeitando características e indicações clínicas.
             </p>
           </div>
 
@@ -586,7 +586,7 @@ export default function Home() {
                 letterSpacing: "0.05em",
               }}
             >
-              
+             Imagens de casos clínicos, com autorização dos pacientes. Resultados variam conforme características individuais. 
             </p>
           </div>
         </div>
